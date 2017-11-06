@@ -48,7 +48,7 @@ se complementa con Turbine para ofrecer una información completa de los servici
 - **Centralized Log Analysis**
 <p>Permite registrar y analizar los eventos de los microservicios como logs.
 Se utiliza uno de los stacks más populares, ELK (Elasticsearch, Logstash, Kibana)</p>
-<p></b>Logstash</b>: 
+<p><b>Logstash</b>: 
 Es un agente que se encuentra en cada uno de nuestros componentes y 
 que se dedica a realizar la trazabilidad de cada uno de ellos. Su trabajo es leer trazas, normalizarlas, 
 estructurarlas y enviarlas al cluster de elasticsearch.</p>
