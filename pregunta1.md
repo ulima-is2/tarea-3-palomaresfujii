@@ -22,8 +22,6 @@ Tiene las siguientes características:
 
 - Es lo que debería tener una arquictectura de servicios.
 
-##### Principios
-
 Los principios más importantes son los primeros cuatro:
 
 - Encapsulamiento
