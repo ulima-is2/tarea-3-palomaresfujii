@@ -14,11 +14,11 @@ Sistemas o aplicaciones grandes que realizan muchas funciones y es difícil su m
 Separa las funciones de negocio en contextos delimitados, un contexto delimitado por servicio. 
 Tiene las siguientes características:
 
-- Es amigable para migraciones graduales. 
-Sin embargo, la migración de sistemas monolíticos a microservicios toma tiempo.
+- Es amigable para migraciones graduales.
+<p>Sin embargo, la migración de sistemas monolíticos a microservicios toma tiempo.</p>
 
-- Agnóstico a la tecnología. 
-Elimina la restricción de exclusividad de un lenguaje presente en un sistema monolítoco. Pues te permite agregar funcionalidades     desarrolladas en lenguajes diferentes según los objetivos del negocio.
+- Agnóstico a la tecnología.
+<p>Elimina la restricción de exclusividad de un lenguaje presente en un sistema monolítoco. Pues te permite agregar funcionalidades      desarrolladas en lenguajes diferentes según los objetivos del negocio.</p>
 
 - Es lo que debería tener una arquictectura de servicios.
 
@@ -27,11 +27,11 @@ Elimina la restricción de exclusividad de un lenguaje presente en un sistema mo
 Los principios más importantes son los primeros cuatro:
 
 - Encapsulamiento
-Es necesario aislar los servicios en contextos delimitados.
+<p>Es necesario aislar los servicios en contextos delimitados.</p>
 
-- Dominio céntrico. 
-El encapsulamiento de cada servicio tiene que estar enfocado en un problema específico a solucionar, es decir, en un requerimiento.
-
+- Dominio céntrico
+<p>El encapsulamiento de cada servicio tiene que estar enfocado en un problema específico a solucionar, es decir, en un requerimiento.</p>
+  
 - Independiente
 
 - A prueba de fallos
@@ -47,13 +47,13 @@ Los últimos tres son más importantes para devOps:
 El principal impulso de los microservicios es ofrecer escalabilidad. Se puede ilutrar como un cubo de 3 ejes: 
 
 - Eje X
-Implica la descomposición funcional del sistema o aplicación. 
+<p>Implica la descomposición funcional del sistema o aplicación.</p>
 
 - Eje Y
-Consiste en la redundancia de servidores, clusters, etc. 
+<p>Consiste en la redundancia de servidores, clusters, etc.</p>
 
 - Eje Z 
-Muestra la fragmentacion de los datos en varios en nodos.
+<p>Muestra la fragmentacion de los datos en varios en nodos.</p>
 
 Los principios de desarrollo SOLID y DRY se alinean con las bases para microservicios. Principalmente, SOLID; en cambio, DRY no se cumple al 100% porque algunas partes de los microservicios tienen duplicidad.
 
@@ -78,20 +78,20 @@ Las definiciones de éxito de un sistema o aplicación son las siguientes:
 Satisfacer estas definiciones implica comprender el negocio. Asimismo, tener una estructura organizativa dentro del equipo, También, definir el tamaño del código, del equipo, etc. Además, es necesario definir la tecnología, en alineamiento con los objetivos.
 
 - Comprender el negocio
-Consiste en dividir los problemas en partes más fáciles de gestionar. Se aplica el ciclo de vida software con la ayuda de diferentes metodologías ágiles. Se evalúa el sistema de acuerdo a usabilidad e interacción por parte del usuario.
+<p>Consiste en dividir los problemas en partes más fáciles de gestionar. Se aplica el ciclo de vida software con la ayuda de diferentes metodologías ágiles. Se evalúa el sistema de acuerdo a usabilidad e interacción por parte del usuario.</p>
 
 - Tener un estructura organizativa 
-Implica que los servicios pertenecen a un equipo y no por varios equipos. La simplicidad es la clave para tener éxito, por consiguiente, el uso de patrones ayudan a lograr el éxito.
+<p>Implica que los servicios pertenecen a un equipo y no por varios equipos. La simplicidad es la clave para tener éxito, por consiguiente, el uso de patrones ayudan a lograr el éxito.</p>
 
 ### Beneficios / retos
 
 #### Beneficios
 
 - Rendimiento. 
-Reducción del time to market. El tiempo para elaborar y lanzar un producto al mercado se reduce.
+<p>Reducción del time to market. El tiempo para elaborar y lanzar un producto al mercado se reduce.</p>
 
 - Satisfacer las expectativas más altas de los usuarios 
-A través de la arquitectura como la escalabilidad, robustez, etc.
+<p>A través de la arquitectura como la escalabilidad, robustez, etc.</p>
 
 - Más rápido de desplegar
 
@@ -115,10 +115,10 @@ A través de la arquitectura como la escalabilidad, robustez, etc.
 ### Tecnologías
 
 - CQRS(Command Query Responsability Segregation) 
-El sistema se subdivide en 2 subsistemas: el de command, operaciones de escritura; y el de query, consultas.
+<p>El sistema se subdivide en 2 subsistemas: el de command, operaciones de escritura; y el de query, consultas.</p>
 
 - Domain driven design 
-Diseño guiado por el dominio. Se delimita el contexto del microservicio a su dominio.
+<p>Diseño guiado por el dominio. Se delimita el contexto del microservicio a su dominio.</p>
 
 - Aprovisionamiento de eventos
-Se almacena las acciones realizadas sobre el sistema de forma que garantice la trazabilidad y la contabilidad. Además, volver a recuperar un estado del sistema anterior.
+<p>Se almacena las acciones realizadas sobre el sistema de forma que garantice la trazabilidad y la contabilidad. Además, volver a recuperar un estado del sistema anterior.</p>
