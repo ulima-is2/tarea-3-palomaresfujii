@@ -112,7 +112,7 @@ Satisfacer estas definiciones implica comprender el negocio. Asimismo, tener una
 ## Aplicaciones
 ### Tecnologías
 
-- CQRS(Command Query Responsability Segregation) 
+- CQRS (Command Query Responsability Segregation) 
 <p>El sistema se subdivide en 2 subsistemas: el de command, operaciones de escritura; y el de query, consultas.</p>
 
 - Domain driven design 
