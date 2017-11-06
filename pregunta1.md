@@ -2,35 +2,47 @@
 
 ## Teoría
 ### Introducción a la arquitectura
-Patrones de diseño se basa en la comunicación. 
-Para aplicar un patrón de diseño es necesario comunicar y decidir en conjunto con el equipo de desarrollo qué patrón utilizar.
 
-Esto también es parte de una comunicación a alto nivel dentro del equipo para acordar qué hacer y qué diseño hacer para cumplir con los objetivos del proyecto. Al estar todos informados, la tasa de éxito se incrementa. Asimismo, se puede detectar errores de forma más ágil.
+Los patrones de diseño se basa en la comunicación. Para aplicar un patrón de diseño es necesario comunicar y decidir en conjunto con el equipo de desarrollo qué patrón utilizar. Esto también es parte de una comunicación a alto nivel dentro del equipo para acordar qué hacer y qué diseño hacer para cumplir con los objetivos del proyecto. Al estar todos informados, la tasa de éxito se incrementa. Asimismo, se puede detectar errores de forma más ágil.
 
-Sistemas monolíticos
-Sistemas o aplicaciones grandes que realizan muchas funciones y es difícil su mantenimiento.
+#### Sistemas monolíticos
 
-Con el transcurrir del tiempo, el costo de mantener un sistema monolítico excede sus beneficios.
+Sistemas o aplicaciones grandes que realizan muchas funciones y es difícil su mantenimiento. Con el transcurrir del tiempo, el costo de mantener un sistema monolítico excede sus beneficios.
 
-Microservicios
-Separa las funciones de negocio en contextos delimitados, un contexto delimitado por servicio
+#### Microservicios
 
-Amigable para migraciones graduales. Sin embargo, la migración de sistemas monolíticos a microservicios toma tiempo.
-Agnóstico a la tecnología. Elimina la restricción de exclusividad de un lenguaje presente en un sistema monolítoco. Pues te permite agregar funcionalidades desarrolladas en lenguajes diferentes según los objetivos del negocio.
+Separa las funciones de negocio en contextos delimitados, un contexto delimitado por servicio. 
+Tiene las siguientes características:
 
-Lo que SOA debería haber sido
+- Es amigable para migraciones graduales. 
+Sin embargo, la migración de sistemas monolíticos a microservicios toma tiempo.
 
-Principios
-Encapsulamiento. Es necesario aislar los servicios en contextos delimitados.
-Dominio céntrico. El encapsulamiento de cada servicio tiene que estar enfocado en un problema específico a solucionar, es decir, en un requerimiento.
-Independiente
-A prueba de fallos
+- Agnóstico a la tecnología. 
+Elimina la restricción de exclusividad de un lenguaje presente en un sistema monolítoco. Pues te permite agregar funcionalidades     desarrolladas en lenguajes diferentes según los objetivos del negocio.
 
-Automatización
-Descentralizado
-Observable
+- Es lo que debería tener una arquictectura de servicios.
 
-Estos 3 son mas importantes para devOps teams.
+##### Principios
+
+Los principios más importantes son los primeros cuatro:
+
+- Encapsulamiento
+Es necesario aislar los servicios en contextos delimitados.
+
+- Dominio céntrico. 
+El encapsulamiento de cada servicio tiene que estar enfocado en un problema específico a solucionar, es decir, en un requerimiento.
+
+- Independiente
+
+- A prueba de fallos
+
+Los últimos tres son más importantes para devOps:
+
+- Automatización
+
+- Descentralizado
+
+- Observable
 
 El principal impulso de los microservicios es ofrecer escalabilidad. Se puede ilutrar como un cubo de 3 ejes. El eje x implica la descomposición funcional del sistema o aplicación. Por otra parte, el eje y consiste en la redundancia de servidores, clusters, etc. Finalmente, el eje z muestra la fragmentacion de los datos en varios en nodos.
 
