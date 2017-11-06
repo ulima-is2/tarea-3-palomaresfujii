@@ -24,23 +24,23 @@ Tiene las siguientes características:
 
 Los principios más importantes son los primeros cuatro:
 
-- Encapsulamiento
+1. Encapsulamiento
 <p>Es necesario aislar los servicios en contextos delimitados.</p>
 
-- Dominio céntrico
+2. Dominio céntrico
 <p>El encapsulamiento de cada servicio tiene que estar enfocado en un problema específico a solucionar, es decir, en un requerimiento.</p>
   
-- Independiente
+3. Independiente
 
-- A prueba de fallos
+4. A prueba de fallos
 
 Los últimos tres son más importantes para devOps:
 
-- Automatización
+5. Automatización
 
-- Descentralizado
+6. Descentralizado
 
-- Observable
+7. Observable
 
 El principal impulso de los microservicios es ofrecer escalabilidad. Se puede ilutrar como un cubo de 3 ejes: 
 
