@@ -142,6 +142,11 @@ Se utiliza tecnología Django-Rest-Framework, Django en Python porque es lo úni
 - **API Twitter**
 <p>Es el API de Twitter que permite al sistema interactuar con esta red social.</p>
 
+- **DB Server**
+<p>Es el servidor de base de datos. 
+  Se utiliza MongoDB porque permite data sharding en cluster con un modelo de escalamiento horizontal.
+Lo cual facilita la satisfacción del objetivo de CineManzana de ofrecer una alta disponiblidad de sus servicios a sus clientes.</p>
+
 ## Componentes - Backend
 
 Se utilizan en más de un nodo.
